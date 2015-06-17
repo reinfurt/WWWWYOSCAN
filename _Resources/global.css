@@ -1,0 +1,164 @@
+body { 
+	width:100%;
+	margin: 0px;
+        color: #000;
+        background-color: #FFF;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        line-height: 24px;
+	white-space:nowrap;	
+	}
+
+a {
+        color: #000;
+        text-decoration: none;
+        border-bottom: solid 2px #000;	
+	}
+
+a:hover {
+        border-bottom: solid 2px #FFF;
+	}
+
+a:active {
+	color:#FFF;
+	}
+	
+a.img { 
+	border: none; 
+	}
+
+input {
+	width:100%;
+	display: block;
+	border: 1px solid #000;
+	height: 25px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        line-height: 24px;
+	}
+
+
+#submit {
+	width:60px;
+	display: block;
+        height: 50px;
+        border: 1px solid #000;
+	background-color:#FFF;
+	margin-top:5px;
+	border-radius: 5px;
+	}
+
+#submit:hover {
+	background-color:#CCC;	
+        border: 1px solid #000;
+	}
+
+.badge { 
+	width: 100%;
+	}
+
+.icon {
+	height: 18px;
+	}
+
+.caption {
+        font-size: 12px;
+        line-height: 16px;
+	}
+
+
+/* containers */
+
+.blockContainer {
+        position:relative;
+	display: inline-block;
+	vertical-align:top;
+	width: 300px;
+	padding: 20px;
+	white-space:initial;
+	}
+
+.imageContainer {
+	width: 50%;
+	padding-bottom: 20px;
+	position:relative; 
+	}
+
+.captionContainer {
+	padding-top: 10px;
+	}
+
+
+/* utility */
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;        
+	}
+
+.grey {
+	color:#CCC;
+	}
+
+a.grey {
+	border-bottom: solid 2px #CCC;
+}
+
+a.grey:hover {
+	border-bottom: solid 2px #FFF;
+}
+
+a.grey:hover {
+	border-bottom: solid 2px #FFF;
+}
+
+
+/* mobile */
+
+@media screen and (max-width: 768px) {
+	
+html {	    	
+	-webkit-tap-highlight-color: rgba(255,0.2);
+	}
+	
+body {
+	font-size: 22px;
+	line-height: 27px;
+	}
+	
+a {
+	/*border-bottom: solid 6px #000;*/
+        }
+
+a:hover {
+        /*border-bottom: solid 6px #FFF;*/
+        }
+
+img {	
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+	}
+
+.icon {	
+	height:20px;
+	margin-top:-8.5px;
+	width: auto;
+	}
+
+
+/* Containers */
+	
+.blockContainer {
+	display: block;
+	width: auto;
+	}
+
+.imageContainer {
+	width: 50%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position:relative; 
+	}
+}
+
